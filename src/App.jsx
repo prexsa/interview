@@ -10,16 +10,18 @@
 // import CustomTabs from "./components/custom-tabs/index.jsx";
 // import Modal from "./components/modal/index.jsx";
 // import AutoComplete from "./components/autocomplete/index.jsx";
-import TicTacToe from "./components/tic-tac-toe/index.jsx";
+// import TicTacToe from "./components/tic-tac-toe/index.jsx";
+import FeatureFlags from "./components/feature-flag/index.jsx";
+import FeatureFlagsGlobalState from "./components/feature-flag/context.jsx";
 
 function App() {
   return (
-    <>
+    <FeatureFlagsGlobalState>
       {/*
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       */}
-      <TicTacToe />
-    </>
+      <FeatureFlags />
+    </FeatureFlagsGlobalState>
   );
 }
 
