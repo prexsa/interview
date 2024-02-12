@@ -6,14 +6,15 @@ import { useState } from "react";
 // import LoadMore from "./components/load-more/index.jsx";
 // import TreeView from "./components/tree-view/index.jsx";
 // import QRCode from "./components/qr-code/index.jsx";
-import LightDarkMode from "./components/light-dark-mode/index.jsx";
+// import LightDarkMode from "./components/light-dark-mode/index.jsx";
+import ScrollIndicator from "./components/scroll-indicator/index.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <LightDarkMode />
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </>
   );
 }
