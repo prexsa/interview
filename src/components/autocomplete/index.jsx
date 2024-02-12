@@ -54,7 +54,7 @@ export default function AutoComplete() {
   return (
     <div>
       {loading ? (
-        <h1>Loading Data></h1>
+        <h1>Loading Data</h1>
       ) : (
         <input
           value={searchParams}
