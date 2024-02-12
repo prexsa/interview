@@ -8,7 +8,9 @@ import { useState } from "react";
 // import QRCode from "./components/qr-code/index.jsx";
 // import LightDarkMode from "./components/light-dark-mode/index.jsx";
 // import ScrollIndicator from "./components/scroll-indicator/index.jsx";
-import CustomTabs from "./components/custom-tabs/index.jsx";
+// import CustomTabs from "./components/custom-tabs/index.jsx";
+// import Modal from "./components/modal/index.jsx";
+import AutoComplete from "./components/autocomplete/index.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +20,7 @@ function App() {
       {/*
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       */}
-      <CustomTabs />
+      <AutoComplete />
     </>
   );
 }
