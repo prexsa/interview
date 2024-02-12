@@ -13,6 +13,7 @@
 // import TicTacToe from "./components/tic-tac-toe/index.jsx";
 import FeatureFlags from "./components/feature-flag/index.jsx";
 import FeatureFlagsGlobalState from "./components/feature-flag/context.jsx";
+import UseFetchTest from "./components/custom-hooks/useFetchTest.jsx";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       {/*
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       */}
-      <FeatureFlags />
+      <UseFetchTest />
     </FeatureFlagsGlobalState>
   );
 }
