@@ -7,14 +7,18 @@ import { useState } from "react";
 // import TreeView from "./components/tree-view/index.jsx";
 // import QRCode from "./components/qr-code/index.jsx";
 // import LightDarkMode from "./components/light-dark-mode/index.jsx";
-import ScrollIndicator from "./components/scroll-indicator/index.jsx";
+// import ScrollIndicator from "./components/scroll-indicator/index.jsx";
+import CustomTabs from "./components/custom-tabs/index.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      {/*
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      */}
+      <CustomTabs />
     </>
   );
 }
